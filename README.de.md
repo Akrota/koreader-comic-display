@@ -12,6 +12,13 @@ Beide teilen sich einen kurzen Blick auf jede Seite (Helligkeit, Farbe, Rand), d
 - Es ändert keine KOReader-Dateien und übersteht deshalb Updates.
 - Es wirkt nur bei Comics (CBZ, CBR, CB7, CBT). PDF und DjVu lassen sich zuschalten, EPUBs bleiben unberührt.
 
+## Bildschirmfotos
+
+<img src="docs/screenshots/menu.png" width="320" alt="Comic Display menu"> 
+<img src="docs/screenshots/refresh.png" width="320" alt="Refresh settings"> 
+<img src="docs/screenshots/dark-borders.png" width="320" alt="Dark borders"> 
+<img src="docs/screenshots/clock-settings.png" width="320" alt="Clock in the corner"> 
+
 ## Refresh gegen Ghosting
 
 Auf Farb-E-Ink (zum Beispiel dem Kobo Libra Colour) bleiben bei Comics oft Reste der vorigen Seite sichtbar, auch wenn KOReader bei jeder Seite voll auffrischt. Comic Display löst einen **zweiten** Voll-Refresh aus, sobald die neue Seite gezeichnet ist.

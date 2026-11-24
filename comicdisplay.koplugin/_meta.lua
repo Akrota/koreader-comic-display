@@ -6,4 +6,5 @@ return {
     description = de
         and "Für Comics auf Farb-E-Ink (CBZ/CBR/CB7/CBT, optional PDF): ein zweiter Refresh gegen Ghosting (automatisch nur bei farbigen Seiten) und schwarze statt helle Ränder neben der Seite (automatisch pro Seite). Ersetzt die Plugins Comic-Refresh und Dunkle Ränder."
         or "For comics on colour e-ink (CBZ/CBR/CB7/CBT, optionally PDF): a second refresh against ghosting (automatically only on colourful pages) and black instead of light borders beside the page (decided per page). Replaces the plugins Comic refresh and Dark borders.",
+    version = "0.1.0",
 }

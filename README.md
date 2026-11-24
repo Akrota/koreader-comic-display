@@ -12,6 +12,13 @@ Both share one quick look at each page (brightness, colour, edge), so the page i
 - It doesn't change any KOReader files, so it survives updates.
 - It is only active for comics (CBZ, CBR, CB7, CBT). PDF and DjVu can be switched on, and EPUBs are not affected.
 
+## Screenshots
+
+<img src="docs/screenshots/menu.png" width="320" alt="Comic Display menu"> 
+<img src="docs/screenshots/refresh.png" width="320" alt="Refresh settings"> 
+<img src="docs/screenshots/dark-borders.png" width="320" alt="Dark borders"> 
+<img src="docs/screenshots/clock-settings.png" width="320" alt="Clock in the corner"> 
+
 ## Refresh against ghosting
 
 On colour e-ink (for example the Kobo Libra Colour), remnants of the previous page often stay visible in comics, even when KOReader does a full refresh on every page. Comic Display triggers a **second** full refresh as soon as the new page is drawn.
