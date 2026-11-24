@@ -70,7 +70,7 @@ local strings = {
         size_l = "groß",
         clock_help = "Zeigt bei Comics klein die Uhrzeit (und auf Wunsch den Akkustand) in einer Ecke über dem Bild. Das Bild wird nicht kleiner. Die Anzeige erneuert sich beim Umblättern, nicht jede Minute (sonst blitzt die Ecke auf E-Ink ständig und kostet Akku).",
         no_standby = "Kein Standby bei Comics",
-        no_standby_help = "Solange ein Comic offen ist, geht der Kobo zwischen den Seiten nicht in den kurzen Standby. Beim schnellen Blättern konnte der Standby sonst eine Seite verschlucken: intern umgeblättert, aber nicht angezeigt. Bei Büchern gilt weiter KOReaders Standby-Einstellung. Der normale Ruhezustand bleibt auch bei Comics.",
+        no_standby_help = "Solange ein Comic offen ist, geht das Gerät zwischen den Seiten nicht in den kurzen Standby. Beim schnellen Blättern konnte der Standby sonst eine Seite verschlucken: intern umgeblättert, aber nicht angezeigt. Bei Büchern gilt weiter KOReaders Standby-Einstellung. Der normale Ruhezustand bleibt auch bei Comics.",
     },
     en = {
         menu_title = "Comic Display",
