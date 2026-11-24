@@ -2,6 +2,12 @@
 
 *English: [README.md](README.md)*
 
+<!-- byline -->
+Ein Plugin von **Akrota und Claude**.
+
+<!-- lang-note -->
+*Funktioniert auf **Deutsch und Englisch**: Menüs und Texte richten sich nach der KOReader-Sprache.*
+
 Ein KOReader-Plugin, mit dem Comics auf Farb-E-Ink besser aussehen. Es macht zwei Dinge, jedes mit eigenen Einstellungen:
 
 - **Refresh gegen Ghosting:** Direkt nach dem Umblättern räumt ein zweiter Voll-Refresh auf, was von der vorigen Seite übrig ist.
@@ -14,10 +20,12 @@ Beide teilen sich einen kurzen Blick auf jede Seite (Helligkeit, Farbe, Rand), d
 
 ## Bildschirmfotos
 
-<img src="docs/screenshots/menu.png" width="320" alt="Comic Display menu"> 
-<img src="docs/screenshots/refresh.png" width="320" alt="Refresh settings"> 
-<img src="docs/screenshots/dark-borders.png" width="320" alt="Dark borders"> 
-<img src="docs/screenshots/clock-settings.png" width="320" alt="Clock in the corner"> 
+*Die Bildschirmfotos zeigen die englische Oberfläche; in einem deutschen KOReader sind die Texte deutsch.*
+
+<table>
+<tr><td align="center" valign="top" width="33%"><img src="docs/screenshots/menu.png" width="260" alt="Comic-Display-Menü"><br><sub>Comic-Display-Menü</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/refresh.png" width="260" alt="Refresh gegen Ghosting: Modus, Verzögerung, wie oft"><br><sub>Refresh gegen Ghosting: Modus, Verzögerung, wie oft</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/refresh-help.png" width="260" alt="Hilfetext: sauberer gegen schneller Refresh, Verzögerung, Turbo"><br><sub>Hilfetext: sauberer gegen schneller Refresh, Verzögerung, Turbo</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><img src="docs/screenshots/dark-borders.png" width="260" alt="Einstellungen für dunkle Ränder"><br><sub>Einstellungen für dunkle Ränder</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/dark-borders-help.png" width="260" alt="Hilfetext: schwarze Ränder, Automatik"><br><sub>Hilfetext: schwarze Ränder, Automatik</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/clock-settings.png" width="260" alt="Uhrzeit in der Ecke: Akku, Ecke, Stil, Größe"><br><sub>Uhrzeit in der Ecke: Akku, Ecke, Stil, Größe</sub></td></tr>
+</table>
 
 ## Refresh gegen Ghosting
 
@@ -71,6 +79,19 @@ Kobo Libra Colour mit KOReader 2026.07.1 (auch mit ZenOS).
 Den Code hat vollständig **Claude** geschrieben, eine KI von Anthropic (in Claude Code). Der Inhaber dieses Projekts hatte die Idee, hat das Plugin auf einem Kobo getestet und Rückmeldungen gegeben, aber keinen Code geschrieben.
 
 Keine Gewährleistung und kein garantierter Support. Fehlermeldungen gern als [Issue](../../issues). Bitte `crash.log` aus dem KOReader-Ordner anhängen.
+
+## Weitere Plugins von Akrota und Claude
+
+- [Levels / Tonwerte](https://github.com/Akrota/koreader-comic-levels): Tonwertkurve für Comics
+- [Comic Panel Zoom](https://github.com/Akrota/koreader-comic-panel-zoom): Panel-für-Panel-Ansicht (Fork von JorgeTheFox)
+- [Comic Dual Page](https://github.com/Akrota/koreader-comic-dual-page): Doppelseiten mit Erkennung (Fork von KORComic)
+- [CBZ Converter](https://github.com/Akrota/koreader-cbz-converter): Comics, PDF und EPUB auf dem Gerät in CBZ umwandeln
+- [Folder to series](https://github.com/Akrota/koreader-folder-to-series): Comic-Ordner zu Reihen mit Bandnummern
+- [Drive Library](https://github.com/Akrota/koreader-drive-library): Google Drive als Cloud-Bibliothek
+- [Story Recall](https://github.com/Akrota/koreader-story-recall): Spoilerfreier KI-Rückblick auf Bücher
+- [Guitar Tab Reader](https://github.com/Akrota/koreader-guitar-tab-reader): Gitarren-Tabs und Chords für E-Ink
+- [Wi-Fi while charging](https://github.com/Akrota/koreader-wifi-while-charging): WLAN anlassen, solange das Gerät lädt
+- [Zen page browser gesture](https://github.com/Akrota/koreader-zen-page-browser-gesture): Geste für den ZenOS-Seitenbrowser
 
 ## Lizenz
 
