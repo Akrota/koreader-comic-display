@@ -49,7 +49,7 @@ local strings = {
         -- Hilfe
         refresh_dark = "Auch dunkle Schwarzweiß-Seiten (experimentell)",
         refresh_dark_help = "Für düstere Schwarzweiß-Comics: Sehr dunkle Seiten bekommen dann ebenfalls den Extra-Refresh, helle Schwarzweiß-Seiten weiterhin nicht. Experimentell: Die Automatik schätzt nach Helligkeit und Farbe und liegt nicht immer richtig.",
-        refresh_help = "Zwei Modi:\n• Sauber: Nach dem Umblättern folgt ein zweiter, voller Refresh, der Reste der vorherigen Seite entfernt (Ghosting). Am saubersten, blitzt zweimal. Blätterst du schnell weiter, wird nur die Seite aufgefrischt, auf der du stehen bleibst.\n• Schnell: kein zweiter Refresh. Stattdessen schaltet Comic Display beim Umblättern automatisch Dithering ein (den Farbmodus des Bildschirms, wie der Schalter „Dithering“). Am schnellsten, ganz leichtes Ghosting kann bleiben.\nKOReaders Dithering-Schalter brauchst du in keinem Modus.\n\nAutomatik (beide Modi): Den zweiten Refresh bzw. das Dithering bekommen nur farbige Seiten, auf Wunsch auch dunkle Schwarzweiß-Seiten. Helle Schwarzweiß-Seiten blättert KOReader ganz normal um. Die Automatik ist experimentell und schätzt nach Farbe und Helligkeit.\n\nVerzögerung, Turbo und „Bei jeder Seite“ gehören zum zweiten Refresh und gelten nur bei „Sauber“. Bleibt Ghosting stehen: Verzögerung erhöhen.\n\nGilt für CBZ, CBR, CB7, CBT (und auf Wunsch PDF/DjVu), nicht für EPUBs.",
+        refresh_help = "Zwei Modi:\n• Schnell (Standard): kein zweiter Refresh. Stattdessen schaltet Comic Display beim Umblättern automatisch Dithering ein (den Farbmodus des Bildschirms, wie der Schalter „Dithering“). Am schnellsten, ganz leichtes Ghosting kann bleiben.\n• Sauber (für den Fall, dass du ihn brauchst): Nach dem Umblättern folgt ein zweiter, voller Refresh, der Reste der vorherigen Seite entfernt (Ghosting). Am saubersten, blitzt zweimal. Blätterst du schnell weiter, wird nur die Seite aufgefrischt, auf der du stehen bleibst.\nKOReaders Dithering-Schalter brauchst du in keinem Modus.\n\nAutomatik (beide Modi): Den zweiten Refresh bzw. das Dithering bekommen nur farbige Seiten, auf Wunsch auch dunkle Schwarzweiß-Seiten. Helle Schwarzweiß-Seiten blättert KOReader ganz normal um. Die Automatik ist experimentell und schätzt nach Farbe und Helligkeit.\n\nVerzögerung, Turbo und „Bei jeder Seite“ gehören zum zweiten Refresh und gelten nur bei „Sauber“. Bleibt Ghosting stehen: Verzögerung erhöhen.\n\nGilt für CBZ, CBR, CB7, CBT (und auf Wunsch PDF/DjVu), nicht für EPUBs.",
         borders_help = "Passt eine Seite nicht genau auf den Bildschirm, bleibt daneben ein freier Rand. Comic Display färbt ihn schwarz statt hell.\n\nAutomatik: nur, wenn die Seite selbst einen dunklen Rand hat, das Bild bis an den Rand reicht oder die ganze Seite sehr dunkel ist. Helle Seiten behalten ihren hellen Rand. Die Automatik ist experimentell: Liegt sie daneben, schalte sie aus, dann sind die Ränder immer schwarz.\n\nIm Nachtmodus greift Comic Display nicht ein.",
         old_plugins = "Comic Display ersetzt die Plugins „Comic-Refresh“ und „Dunkle Ränder“. Beide sind noch installiert und würden doppelt wirken. Bitte die Ordner comicrefresh.koplugin und comicdarkborders.koplugin aus dem plugins-Ordner löschen.",
         clock_title = "Uhrzeit in der Ecke",
@@ -102,7 +102,7 @@ local strings = {
         borders_auto_help = "The border turns black when the page itself has a dark edge or the picture reaches the edge (night scenes, black gutters). With a white edge only when the whole page is very dark. Colour alone does not count. Experimental: the automatic mode guesses from brightness and colour and is not always right.",
         refresh_dark = "Also dark black-and-white pages (experimental)",
         refresh_dark_help = "For gloomy black-and-white comics: very dark pages get the extra refresh as well, light black-and-white pages still do not. Experimental: the automatic mode guesses from brightness and colour and is not always right.",
-        refresh_help = "Two modes:\n• Clean: after the page turn a second, full refresh clears what is left of the previous page (ghosting). Cleanest, flashes twice. If you keep turning pages quickly, only the page you stop on gets refreshed.\n• Fast: no second refresh. Instead, Comic Display switches on dithering automatically when turning (the screen's colour mode, like the \"Dithering\" switch). Fastest, very slight ghosting may remain.\nYou do not need KOReader's dithering switch in either mode.\n\nAutomatic (both modes): only colourful pages get the second refresh or the dithering, optionally also dark black-and-white pages. Light black-and-white pages are turned by KOReader as usual. The automatic mode is experimental and guesses from colour and brightness.\n\nDelay, Turbo and \"Every page\" belong to the second refresh and only apply in \"Clean\" mode. Still ghosting: increase the delay.\n\nApplies to CBZ, CBR, CB7, CBT (and optionally PDF/DjVu), not to EPUBs.",
+        refresh_help = "Two modes:\n• Fast (default): no second refresh. Instead, Comic Display switches on dithering automatically when turning (the screen's colour mode, like the \"Dithering\" switch). Fastest, very slight ghosting may remain.\n• Clean (for when you need it): after the page turn a second, full refresh clears what is left of the previous page (ghosting). Cleanest, flashes twice. If you keep turning pages quickly, only the page you stop on gets refreshed.\nYou do not need KOReader's dithering switch in either mode.\n\nAutomatic (both modes): only colourful pages get the second refresh or the dithering, optionally also dark black-and-white pages. Light black-and-white pages are turned by KOReader as usual. The automatic mode is experimental and guesses from colour and brightness.\n\nDelay, Turbo and \"Every page\" belong to the second refresh and only apply in \"Clean\" mode. Still ghosting: increase the delay.\n\nApplies to CBZ, CBR, CB7, CBT (and optionally PDF/DjVu), not to EPUBs.",
         borders_help = "If a page does not fit the screen exactly, a free border remains beside it. Comic Display paints it black instead of light.\n\nAutomatic: only when the page itself has a dark edge, the picture reaches the edge, or the whole page is very dark. Light pages keep their light border. The automatic mode is experimental: if it guesses wrong, turn it off and the borders are always black.\n\nIn night mode Comic Display stays out of the way.",
         old_plugins = "Comic Display replaces the plugins \"Comic refresh\" and \"Dark borders\". Both are still installed and would act twice. Please delete the folders comicrefresh.koplugin and comicdarkborders.koplugin from the plugins folder.",
         clock_title = "Clock in the corner",
@@ -544,7 +544,7 @@ end
 -- zweiter Refresh, aber Dithering (Farbmodus) automatisch, nach denselben Automatik-Regeln.
 function ComicDisplay:refreshMode()
     if not setting("refresh_enabled", true) then return "off" end
-    return setting("mode", "clean") == "fast" and "fast" or "clean"
+    return setting("mode", "fast") == "clean" and "clean" or "fast"
 end
 
 -- Nur im Modus "sauber" gibt es den zweiten Refresh (und damit Verzoegerung, Turbo, Wie oft)
@@ -573,7 +573,7 @@ function ComicDisplay:modeItem(mode, key)
         text = T(key),
         radio = true,
         enabled_func = function() return setting("refresh_enabled", true) end,
-        checked_func = function() return setting("mode", "clean") == mode end,
+        checked_func = function() return setting("mode", "fast") == mode end,
         callback = function()
             save("mode", mode)
             self.refresh = {}
@@ -785,8 +785,8 @@ function ComicDisplay:addToMainMenu(menu_items)
                         checked_func = function() return setting("refresh_enabled", true) end,
                         callback = function() save("refresh_enabled", not setting("refresh_enabled", true)) end,
                     },
-                    self:modeItem("clean", "mode_clean"),
-                    (function() local it = self:modeItem("fast", "mode_fast"); it.separator = true; return it end)(),
+                    self:modeItem("fast", "mode_fast"),
+                    (function() local it = self:modeItem("clean", "mode_clean"); it.separator = true; return it end)(),
                     {
                         text = T("refresh_auto"),
                         enabled_func = function() return setting("refresh_enabled", true) end,
